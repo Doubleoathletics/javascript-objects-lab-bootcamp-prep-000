@@ -1,4 +1,5 @@
-var recipes 
+var recipes = {typeof: 'object'}
+
 describe('Objects', function() {
   it('defines a `recipes` object', function() {
     expect(typeof recipes).toEqual('object')
