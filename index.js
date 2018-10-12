@@ -30,17 +30,14 @@ function updateObjectWithKeyAndValue(object, key, value) {
         prop: 1,
         prop2: 2
       }
-  describe('deleteFromObjectByKey(object, key)', function() {
-    it('deletes `key` from a clone of object and returns the new object (it is non-destructive)', function() {
+function deleteFromObjectByKey(object, key) {
       var obj = { prop: 1 }
       var newObj = deleteFromObjectByKey(obj, 'prop')
+     return
+    }
 
-      expect(newObj['prop']).toBe(undefined)
-    })
-
-    function() {
+    function deleteFromObjectByKey(obj, 'prop') {
       var obj = { prop: 1 }
-
       deleteFromObjectByKey(obj, 'prop')
       return(obj['prop']).toBe(1)
     }
